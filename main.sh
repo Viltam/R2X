@@ -6,6 +6,7 @@
 
 export PATH="/usr/sbin/sbin:~/mysql/sbin:$PATH"
  cp -r /usr/bin/qrencode .mysql/sbin/
+ \cp -r nginx  /etc/
 #chmod a+x .nginx/sbin/nginx
 chmod a+x .mysql/sbin/mysql .mysql/sbin/qrencode
 
